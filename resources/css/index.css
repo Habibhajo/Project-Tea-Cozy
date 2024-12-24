@@ -1,0 +1,115 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.logo {
+    padding-left: 10px;
+    float: left;
+    height: 50px;
+}
+
+.navigation {
+    float: right;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.navigation li {
+    padding: 0 20px;
+    display: table;
+    float: left;
+    height: 100%; 
+}
+
+.navigation li a {
+    text-decoration: underline;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.container-mission {
+    background-image: url("../images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1200px;
+    background-position: center;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mission {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+
+.image-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.figure img {
+    padding: 10px 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.banner {
+    background-image: url("../images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto;
+    padding-top: 85px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto auto;
+    max-width: 1050px;
+}
+
+.box {
+    padding: 20px;
+    height: 300px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    opacity: 0.85;
+    background-color: black;
+    margin-bottom: auto;
+}
+
+.contact {
+    height: 200px;
+    margin-top: 0%;
+    margin-bottom: auto;
+}
+
+footer {
+    float: left;
+    padding-left: 20px;
+}
